@@ -72,6 +72,7 @@ public class EditResourcesActivity extends AppCompatActivity {
         }
         new AsyncTaskModifyResources().execute(URL_UPDATE_RESOURCES + id);
         Toast.makeText(EditResourcesActivity.this, " " + URL_UPDATE_RESOURCES + id, Toast.LENGTH_SHORT).show();
+        finish();
       }
     });
 

@@ -11,7 +11,7 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:supportsRtl="true"
       android:theme="@style/AppTheme">
-    <activity android:name=".MainActivity">
+    <activity android:name=".IntroActivity" android:theme="@style/SplashTheme" android:screenOrientation="nosensor">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
 
@@ -25,6 +25,7 @@
         android:name="preloaded_fonts"
         android:resource="@array/preloaded_fonts"/>
 
+
     <activity android:name=".AssignmentActivity">
     </activity>
     <activity android:name=".AddProjectActivity">
@@ -32,6 +33,8 @@
     <activity android:name=".ProjectModifyActivity">
     </activity>
     <activity android:name=".EditResourcesActivity">
+    </activity>
+    <activity android:name=".MainActivity">
     </activity>
   </application>
 

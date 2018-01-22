@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_semibold"
-        android:text="Inserisci una nuova risorsa"
+        android:text="Add new resource"
         android:textAlignment="center"
         style="@style/Base.TextAppearance.AppCompat.Headline"
         />
