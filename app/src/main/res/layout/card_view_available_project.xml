@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:contentPadding="5dp"
+    android:background="?attr/selectableItemBackground"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_main"
+        android:id="@+id/imageview"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+      <TextView
+          android:padding="5dp"
+          android:text="Name Project"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+
+      <TextView
+          android:drawablePadding="5dp"
+          android:gravity="center_vertical"
+          android:id="@+id/titleProjectAvailable"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/ic_proj_name"
+          android:hint="project name"
+          />
+      <TextView
+          android:padding="5dp"
+          android:text="Start Project"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+
+      <TextView
+          android:drawablePadding="5dp"
+          android:gravity="center_vertical"
+          android:id="@+id/startProjectAvailable"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/ic_dead_start"
+          android:hint="date start"
+          />
+
+      <TextView
+          android:padding="5dp"
+          android:text="Status"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+
+      <TextView
+          android:drawablePadding="5dp"
+          android:gravity="center_vertical"
+          android:id="@+id/statusAvailable"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/ic_status"
+          android:hint="status"
+          />
+
+      <TextView
+          android:padding="5dp"
+          android:text="Senior"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+
+      <TextView
+          android:drawablePadding="5dp"
+          android:gravity="center_vertical"
+          android:id="@+id/seniorAvailable"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/ic_junior_senior"
+          android:hint="senior"
+          />
+
+      <TextView
+          android:padding="5dp"
+          android:text="junior"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+
+
+
+      <TextView
+          android:drawablePadding="5dp"
+          android:gravity="center_vertical"
+          android:id="@+id/juniorAvailable"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/ic_junior_senior"
+          android:hint="junior"
+          />
+      <TextView
+          android:padding="5dp"
+          android:text="DeadlIne"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+
+      <TextView
+          android:drawablePadding="5dp"
+          android:gravity="center_vertical"
+          android:id="@+id/deadlineAvailable"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/ic_dead_start"
+          android:hint="deadline"
+          />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

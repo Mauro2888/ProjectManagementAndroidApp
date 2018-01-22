@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="management.project.spring.com.projectmanagement.AddResourcesActivity"
+    >
+
+
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+
+    <TextView
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:textStyle="bold"
+        android:text="Name project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:id="@+id/addNameProject"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:text="Start project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:id="@+id/startProject"
+        android:hint="Start project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:text="DeadLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:hint="DeadLine"
+        android:id="@+id/deadlineProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            >
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="Status"
+              />
+
+          <Spinner
+              android:id="@+id/statusSpinner"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              >
+          </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            >
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="Select competency "
+              />
+
+          <Spinner
+              android:id="@+id/spinnerLevel"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              >
+          </Spinner>
+
+
+        </LinearLayout>
+
+      </LinearLayout>
+
+
+<TextView
+    android:textAlignment="center"
+    android:layout_margin="5dp"
+    android:textStyle="bold"
+    android:text="Select programmers from list:"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+    <ListView
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:id="@+id/listProgrammers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:visibility="gone"
+        android:indeterminate="true"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+  </LinearLayout>
+
+
+
+</RelativeLayout>

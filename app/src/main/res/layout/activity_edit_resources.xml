@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="management.project.spring.com.projectmanagement.EditResourcesActivity"
+    >
+
+  <TextView
+      android:layout_margin="10dp"
+      android:textAlignment="center"
+      android:textSize="30sp"
+      android:text="Edit Resource"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+  <TextView
+      android:textStyle="bold"
+      android:text="Name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+  <EditText
+      android:hint="name"
+      android:id="@+id/nameEdit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+  <TextView
+      android:textStyle="bold"
+      android:text="Surname"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+  <EditText
+      android:hint="surname"
+      android:id="@+id/surnameEdit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+  <TextView
+      android:textStyle="bold"
+      android:text="Type"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+  <EditText
+      android:hint="type"
+      android:id="@+id/typeEdit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+  <TextView
+      android:textStyle="bold"
+      android:text="Assigned"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+  <EditText
+      android:inputType="number"
+      android:hint="assigned"
+      android:id="@+id/assignedEdit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+  <TextView
+      android:textStyle="bold"
+      android:text="Hired"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+  <EditText
+      android:hint="hire"
+      android:id="@+id/hireEdit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+  <Button
+      android:id="@+id/updateResoruceBtn"
+      android:layout_gravity="bottom"
+      android:text="Update Resource"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+</LinearLayout>

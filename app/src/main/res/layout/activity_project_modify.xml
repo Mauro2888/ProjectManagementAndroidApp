@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="management.project.spring.com.projectmanagement.ProjectModifyActivity"
+    >
+
+  <TextView
+      android:textAlignment="center"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:padding="5dp"
+      android:text="Edit Projects"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+
+  <LinearLayout
+      android:padding="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+
+    <TextView
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_proj_name"
+        android:drawablePadding="5dp"
+        android:text="Name Project"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:gravity="center_vertical"
+        android:id="@+id/titleProjectModify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="project name"
+        />
+    <TextView
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_dead_start"
+        android:drawablePadding="5dp"
+        android:text="Start Project"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:gravity="center_vertical"
+        android:id="@+id/startProjectModify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="date start"
+        />
+
+    <TextView
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_status"
+        android:text="Status"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:gravity="center_vertical"
+        android:id="@+id/statusModify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="status"
+        />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_junior_senior"
+        android:text="Senior"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:gravity="center_vertical"
+        android:id="@+id/seniorModify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="senior"
+        />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_junior_senior"
+        android:text="junior"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+    <EditText
+        android:gravity="center_vertical"
+        android:id="@+id/juniorModify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="junior"
+        />
+    <TextView
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_dead_start"
+        android:text="DeadlIne"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:gravity="center_vertical"
+        android:id="@+id/deadlineModify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="deadline"
+        />
+
+  </LinearLayout>
+
+  <Button
+      android:gravity="center"
+      android:padding="10dp"
+      android:text="Update"
+      android:id="@+id/update"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+</LinearLayout>
